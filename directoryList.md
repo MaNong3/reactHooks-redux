@@ -3,6 +3,7 @@
   yarn start / npm run start 
 ```
 ### 项目结构
+```bash
 |-- Desktop
     |-- .DS_Store
     |-- .gitignore
@@ -49,3 +50,4 @@
         |   |-- index.js
         |-- features
             |-- initialization.js
+```
