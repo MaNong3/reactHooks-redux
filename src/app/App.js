@@ -1,11 +1,13 @@
 import store from './store';
-import Init from "../container/index"
-import { Provider }from 'react-redux';
-
+import { Provider } from 'react-redux';
+import RouterView from "../router/map.tsx"
+import { BrowserRouter as Router } from "react-router-dom"
 function App() {
   return (
     <Provider store={store}>
-       <Init/>
+      <Router>
+        <RouterView />
+      </Router>
     </Provider>
   );
 }

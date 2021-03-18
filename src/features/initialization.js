@@ -13,8 +13,8 @@ const appSlice = createSlice({
 })
 export const dataList = () => async (dispatch, getState) => {
     const { loginInfo } = getState().app;
-    console.log(loginInfo,"loginInfo")
-    await dispatch(initData(loginInfo+1));
+    console.log(loginInfo, "loginInfo")
+    await dispatch(initData(loginInfo + 1));
 }
 
 
